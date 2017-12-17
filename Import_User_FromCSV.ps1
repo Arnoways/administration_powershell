@@ -42,4 +42,3 @@ foreach ($User in $Users)
     }
 } 
 Write-Host "User import done" -ForegroundColor Yellow
-dsa.msc
