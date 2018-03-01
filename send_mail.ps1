@@ -6,7 +6,7 @@ $password = cat C:\Path\to_the_file\containingpassword.txt | ConvertTo-SecureStr
 $cred = new-object -typename System.Management.Automation.PSCredential -ArgumentList $username, $password
 $from = "sender email address"
 $to = "recipient email address"
-$subject = "Whatever you wwant"
+$subject = "Whatever you want"
 $Body = "Body of the email the script will send"
 $smtpserver = "smtp server"
 
